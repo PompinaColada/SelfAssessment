@@ -1,28 +1,28 @@
 ## Architecture
 
 - Application structure
-  - Modularity
-  - Components
-  - Directories
-  - GRASP
-  - SOLID
-  - GoF patterns
-  - CQS
-  - Leaking abstractions
-  - Multiparadigm code
-  - Contract programming
-  - Platform-agnostic
-  - Transport-agnostic
-  - Framework-agnostic
-  - Code coverage
-  - Cohesion
-  - Coupling
-  - Cyclomatic complexity
-  - Reliability
-  - Quality
-  - Availability
-  - Flexibility
-  - Law of Demeter (LoD)
+  - Modularity: 🎓 known
+  - Components: 🎓 known
+  - Directories: 👂 heard
+  - GRASP: 👂 heard
+  - SOLID: 🖐️ used
+  - GoF patterns: 👂 heard
+  - CQS: 🎓 known
+  - Leaking abstractions: 👂 heard
+  - Multiparadigm code: 👂 heard
+  - Contract programming: 👂 heard
+  - Platform-agnostic: 👂 heard
+  - Transport-agnostic: 👂 heard
+  - Framework-agnostic: 👂 heard
+  - Code coverage: 🎓 known
+  - Cohesion: 🎓 known
+  - Coupling: 👂 heard
+  - Cyclomatic complexity: 🎓 known
+  - Reliability: 👂 heard
+  - Quality: 🎓 known
+  - Availability: 👂 heard
+  - Flexibility: 👂 heard
+  - Law of Demeter (LoD): 👂 heard
 - Application architecture
   - Isolation between layer
   - Domain-specific language (DSL)

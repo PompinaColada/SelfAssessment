@@ -1,64 +1,64 @@
 ## Node.js and backend
 
 - Internals and concepts
-  - Strong and weak sides of node.js
-  - Stateful and stateless servers
-  - Nonblocking I/O and blocking code
-  - Event loop phases
-  - Event loop microtasks and macrotasks
-  - Garbage collection
-  - Node.js LTS schedule
-  - I/O-bound, CPU-bound, memory-bound tasks
-  - Interactive applications (close to real-time)
+  - Strong and weak sides of node.js: 🎓 known
+  - Stateful and stateless servers: 👂 heard
+  - Nonblocking I/O and blocking code: 🎓 known
+  - Event loop phases: 👂 heard
+  - Event loop microtasks and macrotasks: 🎓 known
+  - Garbage collection: 👂 heard
+  - Node.js LTS schedule: 👂 heard
+  - I/O-bound, CPU-bound, memory-bound tasks: 🎓 known
+  - Interactive applications (close to real-time): 👂 heard
 - Modularity, layers and dependencies
-  - CommonJS modules
-  - ECMAScript modules
-  - Module `node:module`
-  - Caching in CJS and ESM
-  - Modules as singletons
-  - Contexts and scripts module `node:vm`
-  - Dependencies: `npm`, `node_modules`
-  - Files `package.json`, `package-lock.json`
-  - Module-based permissions model
-  - Isolation with modularity
-  - Dependency injection
-  - DI containers
-  - Coupling and cohesion
-  - Framework agnostic approach
+  - CommonJS modules: 🎓 known
+  - ECMAScript modules: 🎓 known
+  - Module `node:module`: 👂 heard
+  - Caching in CJS and ESM: 🎓 known
+  - Modules as singletons: 👂 heard
+  - Contexts and scripts module `node:vm`: 👂 heard
+  - Dependencies: `npm`, `node_modules`: 🎓 known
+  - Files `package.json`, `package-lock.json`: 🎓 known
+  - Module-based permissions model: 👂 heard
+  - Isolation with modularity: 🎓 known
+  - Dependency injection: 👂 heard
+  - DI containers: 👂 heard
+  - Coupling and cohesion: 🎓 known
+  - Framework agnostic approach: 👂 heard
 - Environment
-  - Command line arguments
-  - Node.js CLI
-  - Process-based permissions
-  - Graceful shutdown
-  - Clustering
-  - Watch filesystem changes with --watch
+  - Command line arguments: 👂 heard
+  - Node.js CLI: 🎓 known
+  - Process-based permissions: 👂 heard
+  - Graceful shutdown: 👂 heard
+  - Clustering: 👂 heard
+  - Watch filesystem changes with --watch: 🎓 known
 - Internal API
-  - Streams API
-  - Web Streams API
-  - Crypto API
-  - Password hashing with crypto.scrypt
-  - Web Crypto API
-  - File system API (sync and async)
-  - Copy folder recursively
-  - Worker threads
-  - Performance hooks
-  - Native fetch and nodejs/undici
-  - async_hooks
-  - AsyncLocalStorage
-  - AsyncResource
-  - Deprecated domain API
-  - Node.js single executable
-  - SharedArrayBuffer
-  - Module `node:worker_threads`
-  - Module `node:child_process`
-  - MessageChannel, MessagePort
-  - BroadcastChannel
-  - Generating crypto random UUID
-  - Module `node:url` vs `new URL`
-  - Module `node:assert`
-  - Internationalization
-  - Blob, File, Buffer, module `node:buffer`
-  - Module `node:zlib`
+  - Streams API: 👂 heard
+  - Web Streams API: 👂 heard
+  - Crypto API: 👂 heard
+  - Password hashing with crypto.scrypt: 👂 heard
+  - Web Crypto API: 👂 heard
+  - File system API (sync and async): 👂 heard
+  - Copy folder recursively: 👂 heard
+  - Worker threads: 👂 heard
+  - Performance hooks: 👂 heard
+  - Native fetch and nodejs/undici: 👂 heard
+  - async_hooks: 👂 heard
+  - AsyncLocalStorage: 👂 heard
+  - AsyncResource: 👂 heard
+  - Deprecated domain API: 👂 heard
+  - Node.js single executable: 👂 heard
+  - SharedArrayBuffer: 🎓 known
+  - Module `node:worker_threads`: 👂 heard
+  - Module `node:child_process`: 👂 heard
+  - MessageChannel, MessagePort: 👂 heard
+  - BroadcastChannel: 👂 heard
+  - Generating crypto andom UUID: 👂 heard
+  - Module `node:url` vs `new URL`: 👂 heard
+  - Module `node:assert`: 👂 heard
+  - Internationalization: 👂 heard
+  - Blob, File, Buffer, module `node:buffer`: 👂 heard
+  - Module `node:zlib`: 👂 heard
 - Network
   - Endpoint throttling
   - ALPN
@@ -89,18 +89,18 @@
   - keep-alive
   - IP sticky sessions
 - Technique and tools
-  - Native test runner
-  - Logging
-  - Application configuring
-  - Testing
-  - CI/CD
-  - Readable
-  - Writable
-  - Transform
-  - Back pressure
-  - Buffer
-  - Console
-  - Inspector
+  - Native test runner: 👂 heard
+  - Logging: 👂 heard
+  - Application configuring: 👂 heard
+  - Testing: 🎓 known
+  - CI/CD: 👂 heard
+  - Readable: 👂 heard
+  - Writable: 👂 heard
+  - Transform: 👂 heard
+  - Back pressure: 👂 heard
+  - Buffer: 👂 heard
+  - Console: 🎓 known
+  - Inspector: 🎓 known
 - Data access
   - Data access layer
   - Repository
@@ -110,20 +110,20 @@
   - CRUD
   - DTO
 - Error handling and debugging
-  - `Error`
-  - `error.cause`
-  - `error.code`
-  - `error.message`
-  - `error.stack`
-  - `Error.captureStackTrace`
-  - How to avoid mixins
-  - Uncaught exceptions
-  - Heap dump
-  - Debugging tools
-  - Flame graph
-  - Memory leaks
-  - Resource leaks
-  - Data race
+  - `Error`: 🎓 known
+  - `error.cause`: 👂 heard
+  - `error.code`: 🎓 known
+  - `error.message`: 🎓 known
+  - `error.stack`: 👂 heard
+  - `Error.captureStackTrace`: 👂 heard
+  - How to avoid mixins: 👂 heard
+  - Uncaught exceptions: 👂 heard
+  - Heap dump: 👂 heard
+  - Debugging tools: 👂 heard
+  - Flame graph: 👂 heard
+  - Memory leaks: 👂 heard
+  - Resource leaks: 👂 heard
+  - Data race: 👂 heard
 - Integrations and bindings
   - Native addons
   - `C` and `C++` addons
